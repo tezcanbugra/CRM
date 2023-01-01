@@ -30,13 +30,14 @@
 
                 <td>
                     <a asp-action="UpdateCompany" asp-route-id="@r.Id">
-                        <img src="/icon/edit.png" />
+                        <img src="../../wwwroot/icon/edit.png" />
                     </a>
                 </td>
+
                 <td>
                     <form asp-action="DeleteCompany" method="post">
                         <input type="hidden" value="@r.Id" name="CompanyId" />
-                        <input type="image" src="/icon/close.png" />
+                        <input type="image" src="/wwwroot/icon/edit.png" />
                     </form>
                 </td>
             </tr>

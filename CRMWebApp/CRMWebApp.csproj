@@ -28,5 +28,9 @@
 
   <ItemGroup>
     <Folder Include="Views\Company\" />
+    <Folder Include="wwwroot\icon\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\icon\" />
   </ItemGroup>
 </Project>
