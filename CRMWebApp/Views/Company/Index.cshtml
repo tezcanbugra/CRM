@@ -1,0 +1,51 @@
+﻿@model IEnumerable<Company>
+@{ Layout = "_Layout"; ViewBag.Title = "All Companies";}
+
+<h2> All Companies </h2>
+
+<a asp-action="AddCompany" class="btn btn-sm btn-primary">Add Company</a>
+<a asp-action="GetCompany" class="btn btn-sm btn-secondary">Get Companies</a>
+
+<table class="table table-sm table-striped table-bordered m-2">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Contact</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model)
+        {
+            <tr>
+                <td>@r.Id</td>
+                <td>@r.Title</td>
+                <td>@r.Contact</td>
+                <td>@r.Email</td>
+                <td>@r.Phone</td>
+                <td>@r.Status</td>
+
+                <td>
+                    <a asp-action="UpdateCompany" asp-route-id="@r.Id">
+                        <img src="/icon/edit.png" />
+                    </a>
+                </td>
+                <td>
+                    <form asp-action="DeleteCompany" method="post">
+                        <input type="hidden" value="@r.Id" name="CompanyId" />
+                        <input type="image" src="/icon/close.png" />
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+
+
+
