@@ -1,7 +1,4 @@
-﻿var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+﻿using Microsoft.EntityFrameworkCore;
 
-app.MapGet("/", () => "Hello World!");
-
-app.Run();
-
+var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<CompanyDb>(opt => opt.UseInMemoryDatabase("TodoList"));

@@ -3,12 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 25.0.1704.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM-APi", "CRM-APi\CRM-APi.csproj", "{A5CAFD05-91C9-43E6-B132-A57D394C17E8}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9F55BAFE-5E28-4730-A892-8D7E3BAE36F1}"
-	ProjectSection(SolutionItems) = preProject
-		README.md = README.md
-	EndProjectSection
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRMApi", "CRMApi\CRMApi.csproj", "{EE5B5410-4668-458C-889A-313CE4AF4ACD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -16,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A5CAFD05-91C9-43E6-B132-A57D394C17E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A5CAFD05-91C9-43E6-B132-A57D394C17E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A5CAFD05-91C9-43E6-B132-A57D394C17E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A5CAFD05-91C9-43E6-B132-A57D394C17E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE5B5410-4668-458C-889A-313CE4AF4ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE5B5410-4668-458C-889A-313CE4AF4ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE5B5410-4668-458C-889A-313CE4AF4ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE5B5410-4668-458C-889A-313CE4AF4ACD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {80448B41-E2DD-4BC6-8B17-1189BF1F9D14}
+		SolutionGuid = {F499E1FA-BEBD-4C49-868E-6FDE8E765933}
 	EndGlobalSection
 EndGlobal
